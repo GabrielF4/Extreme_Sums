@@ -48,16 +48,12 @@ def sum_strings(x, y):
  
 if __name__ == "__main__":
 
-    '''
     with open("extreme_nr1.txt", "r") as f:
         value_a = f.read()
 
     with open("extreme_nr2.txt", "r") as f:
         value_b = f.read()
-    '''
 
-    value_c, value_d = "9999999", "999"
-
-    sum = sum_strings(value_c, value_d)
+    sum = sum_strings(value_a, value_b)
 
     print(sum)
